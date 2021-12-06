@@ -1,0 +1,96 @@
+body{
+    background-image: linear-gradient(to right, #ff0091, #f700a8, #e500c2, #c800e0, #9700ff);
+}
+.head{
+    height: 40px;
+    box-sizing: border-box;
+}
+.head h5{
+    background-color: rgb(235, 183, 52);
+    padding: 7px;
+}
+.main_img{
+    height: 330px;
+  background-image: url(images/taco_main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.side_div{
+    background-color: rgb(235, 183, 52);  
+}
+.main_text h4{
+background-color:rgb(235, 183, 52);
+padding: 7px;
+margin-bottom: 12px;
+}
+.main_text h6{
+   background-color:rgb(235, 183, 52);
+   padding: 5px;
+}
+.main_text{
+position: absolute;
+top: 141px;
+left: 33px;
+}
+h4,h5,h6{
+    font-family: fantasy;
+}
+.r_col{
+    background-color: white;
+}
+.taco_text{
+  padding: 65px;
+    background-color: white;
+    height: 300px;
+}
+/* button */
+button {
+    display: flex;
+    height: 3em;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(235, 183, 52);
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border: none;
+    background: rgb(235, 183, 52);
+   }
+   button > svg {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    transition: all 0.4s ease-in;
+   }
+   button:hover > svg {
+    font-size: 1.2em;
+    transform: translateX(-5px);
+   }
+   button:hover {
+    box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+    transform: translateY(-2px);
+   }
+   /* button end */
+   #instant_grams{
+       position: relative;
+   }
+   .design::after{
+    content: "";
+    height: 8px;
+    width: 555px;
+    background-image: linear-gradient(to left, #9700ff, #ebb734);
+    position: absolute;
+    top: 22px;
+    right: 16px;
+   }
+   .design::before{
+    content: "";
+    height: 8px;
+    width: 555px;
+    background-image: linear-gradient(to left, #ebb734,#ff0091);
+    position: absolute;
+    top:22px;
+    left: 16px;
+   }
+
